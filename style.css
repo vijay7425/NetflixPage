@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+section:nth-child(1){
+    background: linear-gradient(#000000, #1d1c1c78, #000000), url("/assets/main-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.lang-select {
+    border: 1px solid #f1e6e69e;
+    border-radius: 5px;
+    padding: 2.5px;
+    background-color: #080a0a2b;
+}
+.select1{
+    background-color: #080a0a;
+    font-weight: 600;
+    font-size: 1em;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    border: none;
+
+}
+
+/* 
+.btn {
+    background-color: #de000b;
+    font-weight: 600;
+    font-size: 1em;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+}
+.box1{
+    height: 100%;
+}
+.email-field input{
+    background-color: #0b0a0a40;
+    color: snow;
+    padding: 1em 1em 0.5em;
+    border: 0.5px solid #ffffff80;
+    border-radius: 5px;
+} */
+.box1 {
+    width: 90%; /* Set width to make it responsive */
+    margin:auto; /* Center the container horizontally */
+    
+}
+
+.email-field input {
+    width: 100%; /* Ensure the input field takes up full width */
+    background-color: #0b0a0a40; /* Background color */
+    color: snow; /* Text color */
+    padding: 1em; /* Adjust padding */
+    border: 0.5px solid #ffffff80; /* Border */
+    border-radius: 5px; /* Border radius */
+    margin-bottom: 15px; /* Add space below the input field */
+}
+
+.btn {
+    width: 100%; /* Ensure the button takes up full width */
+    background-color: #de000b; /* Button background color */
+    color: white; /* Button text color */
+    font-weight: 600; /* Button font weight */
+    font-size: 1em; /* Button font size */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Button border radius */
+}
+
+.btn:hover {
+    background-color: #c3000a; /* Button background color on hover */
+}
+
+
+
+.sepa{
+    height: 12px;
+    background-color: gray;
+}
+
+.tv-video{
+    
+    height: 100%;
+    width: 100%;
+    max-height: 57%;
+    max-width: 74%;
+    position: absolute;
+    top: 82px;
+    left: 80px;
+    z-index: -1;
+}
+.tv-video video{
+    width: 100%;
+    height: 100%;
+} 
+.boxshot{
+    border: 2px solid rgba(128,128,128,0.7);
+    background-color: black;
+    width: 90%;
+    max-width: 261px;
+    border-radius: 0.75rem;
+    padding: 0.5rem 0;
+    color: white;
+    position: relative;
+    bottom: 128px;
+    margin: 0 auto;
+   
+}
+.boxshot div span:nth-child(1){
+    font-size: 0.9rem;
+}
+.boxshot div span:nth-child(2){
+    font-size: 0.8rem;
+    color: #0071eb;
+}
+/* Add styles to your icon */
+.download-link {
+    display: inline-block;
+    padding: 3px 8px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 12px;
+}
+  
+  
+  .icon {
+    margin-right:2px; /* Adjust spacing between icon and text */
+  }
+  
+
+
+
+
+  @media (min-width: 768px) {
+    .box1 {
+        width: 70%; /* Adjust width for larger screens */
+    }
+}
